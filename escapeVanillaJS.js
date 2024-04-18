@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("solveRoom3").addEventListener("click", () => {
         fetch('directions.json') 
             .then(response => response.json())
-            .then(directions => {
-                navigateLabyrinth(directions)
+            .then( async directions => {
+                await navigateLabyrinth(directions);
                     .then(message => {
                         // 🪲 Bug: Incorrect method
                         document.getElementById("room3Result").innerHTML = message;
