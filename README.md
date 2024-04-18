@@ -88,4 +88,4 @@ After navigating the labyrinth, a congratulatory message is displayed, indicatin
 ## challenge:
 - Fix the identified bugs in the code.
 - Explore the code and understand how asynchronous functions are used in Room 3.
-- 
+
