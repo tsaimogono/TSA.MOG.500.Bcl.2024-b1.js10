@@ -42,5 +42,50 @@ The Escape Vanilla JS Challenge is an interactive web-based project focusing on 
 3. We will consider the commit history and meaningful commit messages to evaluate your coding process.
 
 
+# labyrinth game
 
+- This code provides the logic for an escape room experience built with JavaScript. Each room is unlocked by solving a specific task related to JavaScript concepts.
 
+## Bugs
+
+### Room 1:
+- **Bug:** Incorrect ID used for attaching the event listener.
+- **Bug:** Incorrect element ID used for updating the result.
+
+### Room 2:
+- **Bug:** Missing JavaScript concepts in the set.
+- **Bug:** Incorrect function call for finding common concepts.
+
+### Room 3:
+- **Bug:** Asynchronous function not properly handled.
+
+## How to play
+
+- Open the HTML file containing this JavaScript code in your browser.
+- Click the buttons corresponding to each room's puzzle to solve them.
+- The results for each room will be displayed below the buttons.
+
+## functionality
+- **Room 1:** Find the Most Recent Book
+Clicking the "Solve Room 1" button fetches a list of books from "books.json".
+The code then finds the most recently published book based on its "published" date.
+The title of the most recent book is displayed as a clue to unlock the next room.
+- **Room 2:**Find Common Programming Concepts
+ Clicking the "Solve Room 2" button defines sets containing JavaScript and React concepts.
+The code then attempts to find the intersection between the two concept sets using a function called "findIntersection". There's also an error in this function call.
+The common concepts are displayed as a comma-separated list forming the code to unlock the door.
+- **Room 3:** Navigate the Labyrinth
+Clicking the "Solve Room 3" button fetches directions from "directions.json".
+The code then calls an asynchronous function "navigateLabyrinth" to navigate the labyrinth based on the retrieved directions.
+After navigating the labyrinth, a congratulatory message is displayed, indicating successful completion of the escape room challenge.
+
+## File Structure
+- `index.html`: HTML file containing the interface for solving the rooms.
+- `script.js`: JavaScript file containing the logic for solving the rooms.
+- `books.json`: JSON file containing book data.
+- `directions.json`: JSON file containing navigation directions.
+
+## challenge:
+- Fix the identified bugs in the code.
+- Explore the code and understand how asynchronous functions are used in Room 3.
+- 
