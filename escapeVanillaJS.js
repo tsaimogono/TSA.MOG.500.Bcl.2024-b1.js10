@@ -25,11 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
             .then(response => response.json())
             .then( async directions => {
                 await navigateLabyrinth(directions);
-                    .then(message => {
-                        // 🪲 Bug: Incorrect method
-                        document.getElementById("room3Result").innerHTML = message;
-                    });
+                document.getElementById("room3Result").innerHTML = "Congratulations! You've mastered the essentials of Vanilla JavaScript. Welcome to the world of React, where you'll build powerful and dynamic web applications. Let's dive in!"; 
             });
+            
     });
 });
 
