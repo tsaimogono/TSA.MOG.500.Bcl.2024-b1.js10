@@ -89,3 +89,10 @@ After navigating the labyrinth, a congratulatory message is displayed, indicatin
 - Fix the identified bugs in the code.
 - Explore the code and understand how asynchronous functions are used in Room 3.
 
+## Improment
+- Visual Design: Create an engaging visual interface for the escape room using HTML and CSS.
+- Sound Effects: Incorporate sound effects to enhance the atmosphere and provide feedback to the playe
+
+## Conclusion
+- This escape room game is a well-structured project using JavaScript concepts like working with JSON data, asynchronous functions, and sets. Fixing the bugs and incorporating the suggested enhancements can transform it into a truly immersive and educational experience.
+
