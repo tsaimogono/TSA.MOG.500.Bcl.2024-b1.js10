@@ -79,7 +79,7 @@ Clicking the "Solve Room 3" button fetches directions from "directions.json".
 The code then calls an asynchronous function "navigateLabyrinth" to navigate the labyrinth based on the retrieved directions.
 After navigating the labyrinth, a congratulatory message is displayed, indicating successful completion of the escape room challenge.
 
-## File Structure
+## File Structure:
 - `index.html`: HTML file containing the interface for solving the rooms.
 - `script.js`: JavaScript file containing the logic for solving the rooms.
 - `books.json`: JSON file containing book data.
@@ -89,10 +89,10 @@ After navigating the labyrinth, a congratulatory message is displayed, indicatin
 - Fix the identified bugs in the code.
 - Explore the code and understand how asynchronous functions are used in Room 3.
 
-## Improment
+## Improvements:
 - Visual Design: Create an engaging visual interface for the escape room using HTML and CSS.
 - Sound Effects: Incorporate sound effects to enhance the atmosphere and provide feedback to the playe
 
-## Conclusion
+## Conclusion:
 - This escape room game is a well-structured project using JavaScript concepts like working with JSON data, asynchronous functions, and sets. Fixing the bugs and incorporating the suggested enhancements can transform it into a truly immersive and educational experience.
 
